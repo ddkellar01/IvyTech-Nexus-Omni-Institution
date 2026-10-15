@@ -1,17 +1,54 @@
 # IvyTech-Nexus-Professors-Swarm 🎓⚡🤖
 
-[![1. Lint Codebase](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm/actions/workflows/1_lint.yml/badge.svg)](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm/actions/workflows/1_lint.yml)
-[![2. Run Test Suite](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm/actions/workflows/2_test.yml/badge.svg)](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm/actions/workflows/2_test.yml)
-[![3. Docker Build & Deploy](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm/actions/workflows/3_docker_deploy.yml/badge.svg)](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm/actions/workflows/3_docker_deploy.yml)
+## 🧰 Tech Stack & Architecture Badges
 
-![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-blue?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.4%2B-ee4c2c?logo=pytorch&logoColor=white)
+### 💻 Core Programming Languages & Core Systems
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
+
+### ⚙️ Platform Support & Hardware Architecture
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
+![NVIDIA CUDA](https://img.shields.io/badge/NVIDIA%20CUDA-76B900?logo=nvidia&logoColor=white)
+![x86_64](https://img.shields.io/badge/Architecture-x86__64-lightgrey)
+![ARM64](https://img.shields.io/badge/Architecture-ARM64-lightgrey)
+
+### ⚡ Low-Level Infrastructure & Performance
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-Protocol-010101?logo=socket.io&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?logo=grpc&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?logo=nvidia&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi&logoColor=white)
+
+### 🛡️ Cybersecurity & Offensive Auditing
+![Security Audit](https://img.shields.io/badge/Security-Socratic%20Fuzzing-critical?logo=awslambda&logoColor=white)
+![ZK-SNARK](https://img.shields.io/badge/ZK--SNARK-Zero%20Knowledge-blueviolet)
+![Flake8 Lint](https://img.shields.io/badge/Lint-Flake8-orange)
+![Binary Hardening](https://img.shields.io/badge/Binary-Hardened%20(ASLR%2FNX)-success)
+![Web3 MultiSig](https://img.shields.io/badge/Web3-MultiSig%20DAO-informational?logo=ethereum&logoColor=white)
+
+### 🛠️ DevOps & Build Tools
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestrated-326CE5?logo=kubernetes&logoColor=white)
-![Web3](https://img.shields.io/badge/Web3-Smart%20Contracts-F16822?logo=ethereum&logoColor=white)
-![Docker Hub](https://img.shields.io/badge/Docker%20Hub-credkellar%2Fswarm%20worker-0db7ed?logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Orchestrated-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Native-326CE5?logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-Charts-0F1689?logo=helm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white)
 
+### 🧠 Artificial Intelligence & Quantum
+![PyTorch](https://img.shields.io/badge/PyTorch-2.4%2B-EE4C2C?logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-LLM-orange)
+![Google-FlowX](https://img.shields.io/badge/Google--FlowX-Cinematic%20Pipeline-purple)
+![Quantum Sim](https://img.shields.io/badge/Quantum-Circuit%20Simulator-blue)
 
+### ☁️ Cloud Providers
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-GCP-4285F4?logo=google-cloud&logoColor=white)
+![Amazon AWS](https://img.shields.io/badge/Amazon%20AWS-Cloud-232F3E?logo=amazon-aws&logoColor=white)
+![Docker Hub](https://img.shields.io/badge/Docker%20Hub-credkellar%2Fswarm--worker-0db7ed?logo=docker&logoColor=white)
+![Infura](https://img.shields.io/badge/Infura-Web3%20RPC-F16822)
 
 ---
 
@@ -53,3 +90,112 @@ The platform unites Small Language Models (SLMs), custom Neural Network Librarie
 ```bash
 git clone [https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm.git](https://github.com/ddkeller01/IvyTech-Nexus-Professors-Swarm.git)
 cd IvyTech-Nexus-Professors-Swarm
+
+IvyTech-Nexus-Professors-Swarm/
+├── .github/
+│   └── workflows/
+│       ├── 1_lint.yml
+│       ├── 2_test.yml
+│       └── 3_docker_deploy.yml
+├── api/
+│   ├── __init__.py
+│   ├── graphql_router.py
+│   ├── main.py
+│   ├── middleware.py
+│   └── websocket_terminal_stream.py
+├── algorithms/
+│   ├── __init__.py
+│   ├── bayesian_hyperparameter_optimizer.py
+│   ├── evolutionary_optimizer.py
+│   ├── federated_learning_node.py
+│   ├── graph_neural_net.py
+│   ├── nnl_activations.py
+│   ├── nnl_optimizer.py
+│   ├── quantum_simulator.py
+│   ├── reinforcement_learner.py
+│   ├── reinforcement_reward_model.py
+│   └── synthetic_data_generator.py
+├── cybersecurity/
+│   ├── __init__.py
+│   ├── ai_red_team.py
+│   ├── auditor.py
+│   ├── binary_hardening_auditor.py
+│   ├── firewall_monitor.py
+│   ├── fuzz_engine.py
+│   ├── honeypot_node_simulator.py
+│   ├── sandbox_runner.py
+│   ├── socratic_auditor.py
+│   └── vulnerability_patcher.py
+├── deploy/
+│   ├── __init__.py
+│   ├── Dockerfile.omni
+│   ├── helm_chart_values.yaml
+│   ├── k8s-deployment.yaml
+│   ├── monitoring_agent.py
+│   ├── run_worker.py
+│   └── terraform_cluster.tf
+├── faculty/
+│   ├── __init__.py
+│   ├── chatgpt_pedagogy.py
+│   ├── claude_craftsmanship.py
+│   ├── codex_synthesis.py
+│   ├── cursor_workspace.py
+│   ├── faculty_office_hours.py
+│   ├── faculty_multisig.py
+│   ├── gemini_thinking_reasoning.py
+│   ├── grok_telemetry.py
+│   ├── omni_orchestrator.py
+│   ├── peer_review_board.py
+│   ├── perception_rag.py
+│   └── roster_initializer.py
+├── llm_core/
+│   ├── __init__.py
+│   ├── dynamic_context_pruner.py
+│   ├── embedding_indexer.py
+│   ├── engine.py
+│   ├── fine_tuner.py
+│   ├── lora_adapter_manager.py
+│   ├── model_quantizer.py
+│   ├── prompt_compiler.py
+│   └── rag_knowledge_base.py
+├── pipelines/
+│   ├── __init__.py
+│   ├── flowx_audio_synthesizer.py
+│   ├── flowx_cinematic_engine.py
+│   ├── flowx_meta_analyzer.py
+│   ├── flowx_multimodal_subtitle_generator.py
+│   ├── flowx_parallel_renderer.py
+│   ├── flowx_storyboard_generator.py
+│   └── flowx_video_upscaler.py
+├── swarm_core/
+│   ├── __init__.py
+│   ├── circuit_breaker.py
+│   ├── coordinator.py
+│   ├── distributed_task_queue.py
+│   ├── heartbeat_mesh_monitor.py
+│   ├── load_balancer.py
+│   ├── message_bus.py
+│   ├── node_registry.py
+│   └── professor_node.py
+├── tests/
+│   ├── __init__.py
+│   ├── benchmark_latency.py
+│   ├── integration_test.py
+│   ├── stress_test_swarm.py
+│   ├── test_nnl_and_web3.py
+│   └── test_swarm.py
+├── web3_integration/
+│   ├── __init__.py
+│   ├── contract_deployer.py
+│   ├── credential_nft.py
+│   ├── governance_dao.py
+│   ├── reputation_staking_oracle.py
+│   ├── tokenomics.py
+│   ├── verifier.py
+│   └── zero_knowledge_identity.py
+├── .env.example
+├── .gitignore
+├── conftest.py
+├── docker-compose.yml
+├── README.md
+└── requirements.txt
