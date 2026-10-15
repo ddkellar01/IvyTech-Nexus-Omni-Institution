@@ -1,5 +1,11 @@
+import sys
+import os
 import torch
 import pytest
+
+# Ensure repository root is on sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from algorithms.nnl_activations import IvyAdaptiveGaussianGELU
 from algorithms.evolutionary_optimizer import EvolutionaryNeuralBreeder
 
