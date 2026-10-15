@@ -30,9 +30,7 @@ jobs:
 
       - name: Lint Codebase with Flake8
         run: |
-          # Stop build on critical syntax errors
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-          # Emit general warnings for stylistic review
           flake8 . --count --exit-zero --max-complexity=12 --max-line-length=127 --statistics
 
       - name: Execute Omni-Swarm Test Suite
