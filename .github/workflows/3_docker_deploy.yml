@@ -27,7 +27,9 @@ jobs:
           file: deploy/Dockerfile.omni
           push: true
           tags: |
-            credkellar/IvyTech-Nexus-Omni-Swarm:latest
-            credkellar/IvyTech-Nexus-Omni-Swarm:omni-release-v2.0
+            credkellar/swarm-worker:latest
+            credkellar/swarm-worker:omni-release-v2.0
+            credkellar/ivytech-nexus-omni-swarm:latest
+            credkellar/ivytech-nexus-omni-swarm:v2.0
           cache-from: type=gha
           cache-to: type=gha,mode=max
