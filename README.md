@@ -3,52 +3,39 @@
 ## 🧰 Tech Stack & Architecture Badges
 
 ### 💻 Core Programming Languages & Core Systems
-![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+### ⛓️ Web3 & Blockchain Infrastructure
+![Monad](https://img.shields.io/badge/Monad-Mainnet%20%2F%20Testnet-8A2BE2?style=for-the-badge&logo=ethereum&logoColor=white)
+![EVM](https://img.shields.io/badge/EVM-Compatible-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Web3.py](https://img.shields.io/badge/Web3.py-v6.0+-f16822?style=for-the-badge&logo=python&logoColor=white)
+![ZK-SNARK](https://img.shields.io/badge/ZK--SNARK-Zero%20Knowledge-990000?style=for-the-badge)
+![Smart Contracts](https://img.shields.io/badge/MultiSig-DAO%20Staking-green?style=for-the-badge)
 
 ### ⚙️ Platform Support & Hardware Architecture
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
-![NVIDIA CUDA](https://img.shields.io/badge/NVIDIA%20CUDA-76B900?logo=nvidia&logoColor=white)
-![x86_64](https://img.shields.io/badge/Architecture-x86__64-lightgrey)
-![ARM64](https://img.shields.io/badge/Architecture-ARM64-lightgrey)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![NVIDIA CUDA](https://img.shields.io/badge/NVIDIA%20CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![x86_64](https://img.shields.io/badge/Architecture-x86__64-blue?style=for-the-badge)
+![ARM64](https://img.shields.io/badge/Architecture-ARM64-orange?style=for-the-badge)
 
 ### ⚡ Low-Level Infrastructure & Performance
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-Protocol-010101?logo=socket.io&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?logo=grpc&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?logo=nvidia&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi&logoColor=white)
-
-### 🛡️ Cybersecurity & Offensive Auditing
-![Security Audit](https://img.shields.io/badge/Security-Socratic%20Fuzzing-critical?logo=awslambda&logoColor=white)
-![ZK-SNARK](https://img.shields.io/badge/ZK--SNARK-Zero%20Knowledge-blueviolet)
-![Flake8 Lint](https://img.shields.io/badge/Lint-Flake8-orange)
-![Binary Hardening](https://img.shields.io/badge/Binary-Hardened%20(ASLR%2FNX)-success)
-![Web3 MultiSig](https://img.shields.io/badge/Web3-MultiSig%20DAO-informational?logo=ethereum&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![WebSockets](https://img.shields.io/badge/Protocol-WebSockets-010101?style=for-the-badge)
+![gRPC](https://img.shields.io/badge/Protocol-gRPC-244c5a?style=for-the-badge)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### 🛠️ DevOps & Build Tools
-![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Orchestrated-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Native-326CE5?logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-Charts-0F1689?logo=helm&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white)
-
-### 🧠 Artificial Intelligence & Quantum
-![PyTorch](https://img.shields.io/badge/PyTorch-2.4%2B-EE4C2C?logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Models-FFD21E?logo=huggingface&logoColor=black)
-![Transformers](https://img.shields.io/badge/Transformers-LLM-orange)
-![Google-FlowX](https://img.shields.io/badge/Google--FlowX-Cinematic%20Pipeline-purple)
-![Quantum Sim](https://img.shields.io/badge/Quantum-Circuit%20Simulator-blue)
-
-### ☁️ Cloud Providers
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-GCP-4285F4?logo=google-cloud&logoColor=white)
-![Amazon AWS](https://img.shields.io/badge/Amazon%20AWS-Cloud-232F3E?logo=amazon-aws&logoColor=white)
-![Docker Hub](https://img.shields.io/badge/Docker%20Hub-credkellar%2Fswarm--worker-0db7ed?logo=docker&logoColor=white)
-![Infura](https://img.shields.io/badge/Infura-Web3%20RPC-F16822)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Orchestrated-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Native-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-Charts-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
