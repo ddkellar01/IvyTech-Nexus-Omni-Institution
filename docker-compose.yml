@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  omni-coordinator:
+    build: .
+    container_name: ivytech_omni_coordinator
+    ports:
+      - "8000:8000"
+    environment:
+      - FACULTY_ROSTER=gemini,claude,codex,cursor,chatgpt,grok,copilot,perplexity
+      - PIPELINE=Google-FlowX
+
+  swarm-worker-node:
+    image: credkellar/swarm-worker:latest
+    container_name: ivytech_omni_worker_node
+    environment:
+      - WORKER_ROLE=professor_developer_engineer_cluster
+      - FLOWX_INTEGRATION=enabled
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
