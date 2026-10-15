@@ -37,6 +37,7 @@ jobs:
 
       - name: Execute Omni-Swarm Test Suite
         env:
+          PYTHONPATH: .
           MODEL_NAME: meta-llama/Llama-3.2-3B-Instruct
           SWARM_MODE: test
         run: |
