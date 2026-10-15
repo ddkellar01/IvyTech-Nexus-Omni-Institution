@@ -1,0 +1,23 @@
+global:
+  environment: production
+  clusterName: ivytech-nexus-omni-cluster
+
+coordinator:
+  replicaCount: 2
+  image:
+    repository: credkellar/swarm-coordinator
+    tag: latest
+  resources:
+    limits:
+      cpu: "4"
+      memory: 16Gi
+
+workerNodes:
+  replicaCount: 8
+  image:
+    repository: credkellar/swarm-worker
+    tag: latest
+  gpu:
+    enabled: true
+    type: nvidia-tesla-a100
+    count: 1
