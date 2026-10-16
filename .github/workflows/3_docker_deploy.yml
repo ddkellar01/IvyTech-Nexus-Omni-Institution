@@ -20,7 +20,7 @@ jobs:
           username: credkellar
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and Push Omni-Swarm Container Image
+      - name: Build and Push Omni-Instition Container Image
         uses: docker/build-push-action@v5
         with:
           context: .
@@ -30,6 +30,6 @@ jobs:
             credkellar/swarm-worker:latest
             credkellar/swarm-worker:omni-release-v2.0
             credkellar/ivytech-nexus-omni-swarm:latest
-            credkellar/ivytech-nexus-omni-swarm:v2.0
+            credkellar/ivytech-nexus-omni-Institutional:v2.5
           cache-from: type=gha
           cache-to: type=gha,mode=max
